@@ -2,8 +2,8 @@
 desarrollo backend de api rest para una tienda de video construida con el lenguaje python y el framework fastapi . el objetivo es gestionar un catalogo de discos (peliculas o videos digitales) junto con las operaciones de regisytro de usuario , venta y alquileres
 
 ## Estructura del proyecto
-|--Main.py #punto de entrada de la aplicacion  de la api , fastapi
-|
+  |-- Main.py #punto de entrada de la aplicacion  de la api , fastapi
+  |
   entidades/     #directorio de paquetes que contiene todas las clases
   |-__init__.py
   |-disco.py
@@ -11,7 +11,7 @@ desarrollo backend de api rest para una tienda de video construida con el lengua
   |-venta.py
   |-alquiler.py
   |-catalogo.py
-  ##instalacion y ejecucion 
+  # instalacion y ejecucion 
     1.Clonar el repositorio 
        git clone https://github.com/usuario/test-alquiler-video.git
     2.cd alquiler-video
@@ -27,7 +27,7 @@ desarrollo backend de api rest para una tienda de video construida con el lengua
        *Documentacion interactiva: https//127.0.0.1:8000/docs
        *Documntacion alternativa (ReDoc):https://127.0.0.1:8000/redoc
 
-    ##Endpoint principales (version inicial )
+# Endpoint principales (version inicial )
     metodo endpoint descripcion
     GET  /discos/        Lista de los discos disponibles
     POST /discos/        Agregar un nuevo disco
@@ -37,13 +37,13 @@ desarrollo backend de api rest para una tienda de video construida con el lengua
     POST /Ventas/      Registar ventas
     POST /Alquileres/   Registar un alquiler
 
-    ##Tecnologia utilizada
+ # Tecnologia utilizada
     * Python 3.12.8
     * FastAPI
     * Uvicorn (Servidor ASGI)
 
-    ## Proyecto desarrollado como caso de estudio
-    * Nombre: **Luis Marcos Acosta.** <aluismarcos@gmail.com>
-    * Github: @LuisMarcos
+  ## Proyecto desarrollado como caso de estudio
+  * Nombre: **Luis Marcos Acosta.** <aluismarcos@gmail.com>
+  * Github: @LuisMarcos
 
 
